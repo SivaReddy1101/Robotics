@@ -1,0 +1,66 @@
+/* Menu Styles */
+
+.header{
+    background-image: url('images/head-back.jpg');
+    background-size: cover;
+}
+.navbar{
+    margin: 0 12% 2% 12%;
+    width: 75%;
+    padding-top: 1.2em;
+}
+.navbar-row{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul{
+    list-style-type: none;
+}
+.nav-menu li{
+    display: inline;
+    padding: 8px;
+    font-size: smaller;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Styles */
+/* for all pages except index page */
+
+.head-content-col{
+    color: white;
+    height: 25em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-content-col h2{
+    display: inline;
+    font-size: xxx-large;
+}
+.head-content-col p{
+    display: inline;
+    font-size: larger;
+}
+.head-content-col a{
+    text-decoration:none;
+    color: white;
+    margin: 0.5em;
+    font-size: 14px;
+}
+.icon-arrow{
+    font-size: 14px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.head-content-row1{
+    margin: 1em;
+}
+.head-content-row2{
+    margin: 1em;
+}
