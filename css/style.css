@@ -10,3 +10,87 @@ body{
     width: 100%;
     height: 100%;
 }
+
+
+/* Contact US */
+
+.contact-content{
+    height: 70em;
+}
+.content-contact-map{
+    padding: 5em;
+    height: 25em;
+}
+.content-contact-details{
+    padding: 2em;
+    height: 26em;
+    background-color: #F8F9FA;
+}
+.contact-display{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon{
+    margin: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.contact-details{
+    width: 74%;
+}
+.contact-icon span{
+    font-size: larger;
+    padding: 0.2em;
+}
+.fas-icons{
+    font-size: x-large;
+}
+.contact-phoneicon, .contact-homeicon, .contact-emailicon{
+    height: 2em;
+    width: 4em;
+}
+.contact-col2{
+    width: 60%;
+    height: 21.7em;
+}
+.content-contact-form{
+    flex-flow: row;
+    width: 100%;
+}
+.contact-form-col1{
+    width: 100%;
+    margin-left: 2em;
+}
+.contact-sub{
+    margin-bottom: 0;
+}
+.contact-form-col2{
+    width: 100%;
+    margin: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.contact-form-col1 input{
+    display: block;
+    padding: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+.contact-form-col2 textarea{
+    display: block;
+    padding: 1em;
+    float: left;
+    font-family: "Poppins",sans-serif;
+}
+.contact-submit{
+    margin-left: 2em;
+}
+.contact-submit a{
+    background-color: #2488FA;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+    text-decoration: none;
+}
