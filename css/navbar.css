@@ -64,3 +64,43 @@
 .head-content-row2{
     margin: 1em;
 }
+
+/* Home/ Index page styles */
+
+.home-head-content-row2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.hc-row2-col1, .hc-row2-col2{
+    width: 40%;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+}
+.hc-row2-col1 h1{
+    font-size: xx-large;
+    line-height: 1.1;
+}
+.hc-row2-col1 p{
+    font-size: medium;
+}
+.hc-r2-c2-img{
+    height: 24em;
+}
+.home-head-btn-ptag{
+    margin-top: 2em;
+}
+.home-head-btn{
+    color: black;
+    background-color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+.home-head-btn:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
