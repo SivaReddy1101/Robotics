@@ -305,3 +305,115 @@ body{
     border-radius: 12px;
     text-decoration: none;
 }
+
+/* Login */
+
+.login-signup-bg{
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+}
+.login-content{
+    padding: 1em;
+    margin: 2em;
+}
+.login-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+}
+.login-col1{
+    width: 27%;
+    margin: 1.5em;
+    padding: 1em;
+}
+.login-col2{
+    width: fit-content;
+    margin: 1.5em;
+    padding: 1em;
+}
+.login-heading{
+    text-align: center;
+    padding: 0.2em;
+    margin-left: 2em;
+}
+.login-img{
+    width: 100%;
+}
+.form-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: unset;
+    padding: 2em;
+    margin-left: 2.5em;
+}
+.icon-span{
+    top: 30;
+    position: relative;
+    left: 16;
+}
+.input-em-pass{
+    border: none;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1em;
+    padding-left: 3em;
+    background-color: #e6e6e6;
+    border-radius: 112px;
+    margin-bottom: 1em;
+}
+.input-btn{
+    border: none;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1em;
+    background-color: #57b846;
+    border-radius: 112px;
+    margin-bottom: 1em;
+}
+.form-atag{
+    text-decoration: none;
+    color: #666;
+    margin: 1em;
+}
+.fp-ptag{
+    text-align: center;
+}
+.fp-span:hover{
+    color: #57b846;
+}
+.ptag-cr{
+    text-align: center;
+    padding: 0.2em;
+    margin-left: 2.3em;
+}
+
+/* Sign Up */
+
+.em-input, .pass-label{
+    width: 18em;
+}
+.em-pass{
+    border: none;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1em;
+    padding-left: 3em;
+    background-color: #e6e6e6;
+    border-radius: 112px;
+}
+.em-cpass{
+    border: none;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1em;
+    padding-left: 3em;
+    background-color: #e6e6e6;
+    border-radius: 112px;
+    margin-bottom: 1em;
+}
+.iconn-arrow{
+    margin-left: 0.2em;
+}
